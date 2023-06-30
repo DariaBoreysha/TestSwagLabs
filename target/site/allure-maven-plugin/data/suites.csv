@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.Login.negative.LoginWithInvalidTest.LoginWithInvalidCredentials","442",""
+"passed","tests.Login.positive.LoginPageTest.LoginWithValidCredentials","1873",""
+"passed","tests.Login.positive.LoginPageTest.CheckTheCorrectRedirectAfterLogin","425",""
+"passed","tests.Login.negative.LoginWithInvalidTest.LoginWithoutUsername","4333",""
+"passed","tests.Login.negative.LoginWithInvalidTest.LoginWithEmptyFields","139",""
+"passed","tests.Login.negative.LoginWithInvalidTest.LoginWithoutPassword","243",""

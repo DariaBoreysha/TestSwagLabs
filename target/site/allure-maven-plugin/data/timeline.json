@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-F2KM3I9",
+    "children" : [ {
+      "name" : "9124@DESKTOP-F2KM3I9.main(1)",
+      "children" : [ {
+        "name" : "LoginWithInvalidCredentials()",
+        "uid" : "72725c3beffcc9f6",
+        "parentUid" : "9e0b65bc1c4e75d13290aa05148e2669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118070853,
+          "stop" : 1688118071295,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithValidCredentials()",
+        "uid" : "28919f00bdc5c9c8",
+        "parentUid" : "9e0b65bc1c4e75d13290aa05148e2669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118072072,
+          "stop" : 1688118073945,
+          "duration" : 1873
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckTheCorrectRedirectAfterLogin()",
+        "uid" : "9174808d7a9d25e0",
+        "parentUid" : "9e0b65bc1c4e75d13290aa05148e2669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118073948,
+          "stop" : 1688118074373,
+          "duration" : 425
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithoutUsername()",
+        "uid" : "26defb9f9cc0e7fd",
+        "parentUid" : "9e0b65bc1c4e75d13290aa05148e2669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118066438,
+          "stop" : 1688118070771,
+          "duration" : 4333
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithEmptyFields()",
+        "uid" : "e756a69591e6d38a",
+        "parentUid" : "9e0b65bc1c4e75d13290aa05148e2669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118071299,
+          "stop" : 1688118071438,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithoutPassword()",
+        "uid" : "c65623db5e35d5fc",
+        "parentUid" : "9e0b65bc1c4e75d13290aa05148e2669",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118071442,
+          "stop" : 1688118071685,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e0b65bc1c4e75d13290aa05148e2669"
+    } ],
+    "uid" : "3573248e2d628935574f673e6c9c6e42"
+  } ]
+}

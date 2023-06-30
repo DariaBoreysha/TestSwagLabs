@@ -1,0 +1,101 @@
+{
+  "uid" : "c65623db5e35d5fc",
+  "name" : "LoginWithoutPassword()",
+  "fullName" : "tests.Login.negative.LoginWithInvalidTest.LoginWithoutPassword",
+  "historyId" : "9c6a605b8678a4bb58ed82242046aa71",
+  "time" : {
+    "start" : 1688118071442,
+    "stop" : 1688118071685,
+    "duration" : 243
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "openApp",
+    "time" : {
+      "start" : 1688118071443,
+      "stop" : 1688118071484,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearCookiesAndLocalStorage",
+    "time" : {
+      "start" : 1688118071668,
+      "stop" : 1688118071684,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1688118071688,
+      "stop" : 1688118072060,
+      "duration" : 372
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-F2KM3I9"
+  }, {
+    "name" : "thread",
+    "value" : "9124@DESKTOP-F2KM3I9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.Login.negative.LoginWithInvalidTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Login.negative.LoginWithInvalidTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginWithoutPassword"
+  }, {
+    "name" : "suite",
+    "value" : "tests.Login.negative.LoginWithInvalidTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c65623db5e35d5fc.json",
+  "parameterValues" : [ ]
+}

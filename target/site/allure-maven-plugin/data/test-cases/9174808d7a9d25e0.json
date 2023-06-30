@@ -1,0 +1,101 @@
+{
+  "uid" : "9174808d7a9d25e0",
+  "name" : "CheckTheCorrectRedirectAfterLogin()",
+  "fullName" : "tests.Login.positive.LoginPageTest.CheckTheCorrectRedirectAfterLogin",
+  "historyId" : "9ae365377e44ce29238da4305cf96d33",
+  "time" : {
+    "start" : 1688118073948,
+    "stop" : 1688118074373,
+    "duration" : 425
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "openApp",
+    "time" : {
+      "start" : 1688118073949,
+      "stop" : 1688118074018,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearCookiesAndLocalStorage",
+    "time" : {
+      "start" : 1688118074337,
+      "stop" : 1688118074372,
+      "duration" : 35
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1688118074375,
+      "stop" : 1688118074686,
+      "duration" : 311
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-F2KM3I9"
+  }, {
+    "name" : "thread",
+    "value" : "9124@DESKTOP-F2KM3I9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.Login.positive.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Login.positive.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckTheCorrectRedirectAfterLogin"
+  }, {
+    "name" : "suite",
+    "value" : "tests.Login.positive.LoginPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9174808d7a9d25e0.json",
+  "parameterValues" : [ ]
+}

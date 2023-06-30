@@ -1,0 +1,89 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.Login",
+    "children" : [ {
+      "name" : "negative.LoginWithInvalidTest",
+      "children" : [ {
+        "name" : "LoginWithoutUsername",
+        "uid" : "26defb9f9cc0e7fd",
+        "parentUid" : "f3d4f0ce7dcccfc836d31db01c814468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118066438,
+          "stop" : 1688118070771,
+          "duration" : 4333
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithInvalidCredentials",
+        "uid" : "72725c3beffcc9f6",
+        "parentUid" : "f3d4f0ce7dcccfc836d31db01c814468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118070853,
+          "stop" : 1688118071295,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithEmptyFields",
+        "uid" : "e756a69591e6d38a",
+        "parentUid" : "f3d4f0ce7dcccfc836d31db01c814468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118071299,
+          "stop" : 1688118071438,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithoutPassword",
+        "uid" : "c65623db5e35d5fc",
+        "parentUid" : "f3d4f0ce7dcccfc836d31db01c814468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118071442,
+          "stop" : 1688118071685,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "negative.LoginWithInvalidTest"
+    }, {
+      "name" : "positive.LoginPageTest",
+      "children" : [ {
+        "name" : "LoginWithValidCredentials",
+        "uid" : "28919f00bdc5c9c8",
+        "parentUid" : "ed8c9e73b071e19365c96d7327734175",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118072072,
+          "stop" : 1688118073945,
+          "duration" : 1873
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckTheCorrectRedirectAfterLogin",
+        "uid" : "9174808d7a9d25e0",
+        "parentUid" : "ed8c9e73b071e19365c96d7327734175",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688118073948,
+          "stop" : 1688118074373,
+          "duration" : 425
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "positive.LoginPageTest"
+    } ],
+    "uid" : "tests.Login"
+  } ]
+}

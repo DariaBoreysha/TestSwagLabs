@@ -1,0 +1,101 @@
+{
+  "uid" : "26defb9f9cc0e7fd",
+  "name" : "LoginWithoutUsername()",
+  "fullName" : "tests.Login.negative.LoginWithInvalidTest.LoginWithoutUsername",
+  "historyId" : "41056a273c6c00e7178e09741c6326a6",
+  "time" : {
+    "start" : 1688118066438,
+    "stop" : 1688118070771,
+    "duration" : 4333
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "openApp",
+    "time" : {
+      "start" : 1688118066460,
+      "stop" : 1688118070357,
+      "duration" : 3897
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearCookiesAndLocalStorage",
+    "time" : {
+      "start" : 1688118070742,
+      "stop" : 1688118070763,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1688118071688,
+      "stop" : 1688118072060,
+      "duration" : 372
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-F2KM3I9"
+  }, {
+    "name" : "thread",
+    "value" : "9124@DESKTOP-F2KM3I9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.Login.negative.LoginWithInvalidTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Login.negative.LoginWithInvalidTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginWithoutUsername"
+  }, {
+    "name" : "suite",
+    "value" : "tests.Login.negative.LoginWithInvalidTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26defb9f9cc0e7fd.json",
+  "parameterValues" : [ ]
+}

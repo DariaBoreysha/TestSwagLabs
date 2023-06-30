@@ -1,0 +1,16 @@
+Package\Product\ProductsPage.class
+Constants\Constant.class
+Constants\Constant$TimeoutVariables$CheckoutCredentials.class
+Package\Base\BasePage.class
+Constants\Constant$TimeoutVariables.class
+Package\Cart\CartPage.class
+Package\Product\DefiniteProductPage.class
+common\Config.class
+Constants\Constant$TimeoutVariables$LoginsAndPasswords.class
+Package\Saucelabs\SauceLabs.class
+Package\Checkout\CheckoutPageOverview.class
+Package\Checkout\CheckoutPage.class
+common\CommonActions.class
+Constants\Constant$TimeoutVariables$URL.class
+Package\Login\LoginPage.class
+Package\Checkout\CheckoutPageComplete.class

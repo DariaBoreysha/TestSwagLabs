@@ -1,0 +1,61 @@
+[ {
+  "uid" : "72725c3beffcc9f6",
+  "name" : "LoginWithInvalidCredentials()",
+  "time" : {
+    "start" : 1688118070853,
+    "stop" : 1688118071295,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28919f00bdc5c9c8",
+  "name" : "LoginWithValidCredentials()",
+  "time" : {
+    "start" : 1688118072072,
+    "stop" : 1688118073945,
+    "duration" : 1873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9174808d7a9d25e0",
+  "name" : "CheckTheCorrectRedirectAfterLogin()",
+  "time" : {
+    "start" : 1688118073948,
+    "stop" : 1688118074373,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26defb9f9cc0e7fd",
+  "name" : "LoginWithoutUsername()",
+  "time" : {
+    "start" : 1688118066438,
+    "stop" : 1688118070771,
+    "duration" : 4333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e756a69591e6d38a",
+  "name" : "LoginWithEmptyFields()",
+  "time" : {
+    "start" : 1688118071299,
+    "stop" : 1688118071438,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c65623db5e35d5fc",
+  "name" : "LoginWithoutPassword()",
+  "time" : {
+    "start" : 1688118071442,
+    "stop" : 1688118071685,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
