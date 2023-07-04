@@ -23,7 +23,7 @@ public class Config {
     /**
      * To keep browser open after whole scenario;
      **/
-    public static final Boolean HOLD_BROWSER_OPEN = false;
+    public static final Boolean HOLD_BROWSER_OPEN = true;
 
     /**
      * To delete old screenshots before each new test run;

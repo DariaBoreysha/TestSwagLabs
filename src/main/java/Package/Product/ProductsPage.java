@@ -21,9 +21,10 @@ public class ProductsPage extends BasePage {
     private SelenideElement filterOptionNameASC = $x(".//select[@class='product_sort_container']/option[2]");
     private SelenideElement filterOptionPriceASC = $x(".//select[@class='product_sort_container']/option[3]");
     private SelenideElement filterOptionPriceDESC = $x(".//select[@class='product_sort_container']/option[4]");
-    private ElementsCollection AddToCartButtons = $$x(".//button[@class='btn btn_primary btn_small btn_inventory']");
-    private ElementsCollection removeFromCartButtons = $$x(".//button[@class='btn btn_secondary btn_small btn_inventory']");
+    private ElementsCollection AddToCartButtons = $$x(".//button[contains(@id, 'add-to-cart')]");
+    private ElementsCollection removeFromCartButtons = $$x(".//button[contains(@id, 'remove')]");
     private SelenideElement catalogueTitle = $x(".//span[@class='title']");
+    private ElementsCollection numberOfProductsOnPage = $$x(".//div[@class='inventory_item_name']");
 
     public String getCatalogueTitle(){
         return catalogueTitle.getText();
@@ -33,13 +34,27 @@ public class ProductsPage extends BasePage {
         switchTo().alert().accept();
         return this;
     }
-    public ProductsPage addAllProductsToCart(){
+    public ProductsPage addProductsToCart(){
         for (int i=0; i!=AddToCartButtons.size(); i++){
             AddToCartButtons.get(i).click();
         }
         return this;
     }
-    public ProductsPage removeAllProductsFromCart(){
+
+    public int numberOfProductsOnPage(){
+      int numberOfProducts = numberOfProductsOnPage.size();
+      return numberOfProducts;
+    }
+
+    public int numberOfProductsToAddOnPage(){
+        int numberOfProductsToAdd = AddToCartButtons.size();
+        return numberOfProductsToAdd;
+    }
+    public int numberOfProductsToRemoveOnPage(){
+        int numberOfProductsToRemove = removeFromCartButtons.size();
+        return numberOfProductsToRemove;
+    }
+    public ProductsPage removeProductsFromCart(){
         for (int i=0; i!=removeFromCartButtons.size(); i++){
             removeFromCartButtons.get(i).click();
         }
@@ -69,10 +84,10 @@ public class ProductsPage extends BasePage {
         return this;
     }
 
- public String getTheAmountOfAddedGoods(){
-       this.addAllProductsToCart();
+ public int getTheAmountOfAddedGoods(){
        String theAmountOfAddedGoods = shoppingCartBadge.getText();
-       return theAmountOfAddedGoods;
+       int AmountOfAddedGoods = Integer.parseInt(theAmountOfAddedGoods);
+       return AmountOfAddedGoods;
     }
 
 }
