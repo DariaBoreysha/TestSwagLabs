@@ -35,9 +35,7 @@ public class ProductsPage extends BasePage {
         return this;
     }
     public ProductsPage addProductsToCart(){
-        for (int i=0; i!=AddToCartButtons.size(); i++){
-            AddToCartButtons.get(i).click();
-        }
+        AddToCartButtons.forEach(button -> button.click());
         return this;
     }
 
@@ -55,9 +53,7 @@ public class ProductsPage extends BasePage {
         return numberOfProductsToRemove;
     }
     public ProductsPage removeProductsFromCart(){
-        for (int i=0; i!=removeFromCartButtons.size(); i++){
-            removeFromCartButtons.get(i).click();
-        }
+        removeFromCartButtons.forEach(button -> button.click());
         return this;
     }
     public ProductsPage openProductsFilter(){

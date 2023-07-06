@@ -49,6 +49,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>AllTests.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <reportsDirectory>C:\Program Files(x86)\Jenkins\workspace\TestAutomationRun\target</reportsDirectory>
                     <testFailureIgnore>false</testFailureIgnore>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

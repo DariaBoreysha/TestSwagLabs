@@ -17,7 +17,6 @@ public class BasePage {
     public final SelenideElement allItemsBurgerOption = $x(".//a[@id='inventory_sidebar_link']");
     public final SelenideElement aboutBurgerOption = $x(".//a[@id='about_sidebar_link']");
     public final SelenideElement logoutBurgerOption = $x("logout_sidebar_link");
-    public final SelenideElement resetBurgerOption = $x(".//a[@id='reset_sidebar_link']");
 
     public void goToURL(String URL) {
         open(URL);

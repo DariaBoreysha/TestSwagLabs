@@ -22,9 +22,7 @@ public class CartPage extends BasePage {
 
 
     public CartPage removeAllGoodsFromCart(){
-        for(int i=0; i!=removeButtons.size(); i++){
-            removeButtons.get(i).click();
-        }
+        removeButtons.forEach(button->button.click());
         return this;
     }
 
